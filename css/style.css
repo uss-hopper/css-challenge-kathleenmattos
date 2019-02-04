@@ -97,7 +97,6 @@ img[alt="welcome to my homepage"] {
 	display: block;
 	margin: 0 auto 2rem;
 	margin-top: 5em;
-
 }
 
 
@@ -156,6 +155,7 @@ about me
 
 span {
 	color: #fff702;
+	font-style: italic;
 
 
 }
