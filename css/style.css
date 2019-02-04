@@ -66,14 +66,14 @@ body { width: 100%;
 
 
 /**
-header flex box
+header
  */
+
 .header {
 	display: flex;
 	justify-content: flex-start;
 	font-family: monospace;
 	color: lime;
-
 }
 
 .dMcDHeader {
@@ -86,15 +86,21 @@ header flex box
 	color: lime;
 }
 
+h1 {
+	padding: 4em;
+}
+
 img [alt*="welcome to my homepage"] {
 	display: flex;
 	justify-content: center;
+	align-content: center;
 }
 
 
 /**
  instructions
  */
+
 .instructions {
 	width: 100%;
 	margin: 2rem auto;
@@ -102,6 +108,7 @@ img [alt*="welcome to my homepage"] {
 	flex-direction: row;
 	align-items: center;
 }
+
 .instructions > .container {
 	border: 2px black;
 	display: flex;
@@ -124,18 +131,16 @@ img [alt*="welcome to my homepage"] {
 	display: flex;
 	align-content: space-between;
 	border: thick solid black;
-	padding: 2rem;
+	padding: 1rem;
 }
 
-/**
-image wrapper for Captain Janeway
-*/
-.instructions > .container > .image-wrapper {
-	width: 25%;
-	margin: 2rem;
-	min-width: 17rem;
-	border: 1px solid #363636;
+.instructions-wrapper img {
+	width: 18em;
+	height: 12em;
+	margin: auto;
+	padding-left: 25vw;
 }
+
 
 /**
 about me
@@ -144,25 +149,35 @@ about me
 .about-me {
 	width: 100%;
 	background-color: blue;
-	display: inline-flex;
+	display: flex;
 	flex-flow: wrap;
-	align-items: center;
+	align-items: flex-start;
 	justify-content: space-around;
+	color: white;
+	padding: 1em 2em 1em;
 }
 
+span {
+	color: #fff702;
+
+}
 /**
 image wrapper for Captain Picard
  **/
+
 img[alt*="captain picard"] {
 	width: 22em;
 	height: auto;
 	border: 2px solid #ffedff;
 	margin: 2rem auto;
+	float: left;
 }
+
 
 /**
 professional skillz
  */
+
 .skillList {
 	width: 78%;
 	margin: 2rem auto;
@@ -181,7 +196,7 @@ table {
 
 table, td, th {
 	border-collapse: collapse;
-	background-color: darkslategray;
+	background-color: #333333;
 	border: 3px solid white;
 	color: lime;
 }
@@ -190,9 +205,24 @@ th, td {
 	height: 3rem;
 }
 
+
 /**
 contact-me
  */
+
+ .form-wrapper {
+	 background-color: #286218;
+	 color: lime;
+	 padding: 1em 2em 1em;
+ }
+
+ .form-wrapper >button {
+	 background-color: lime;
+ }
+
+ form > div {
+	 display: grid;
+ }
 
 
 
