@@ -93,10 +93,10 @@ h1 {
 	font-size: 40px;
 }
 
-img [alt*="welcome to my homepage"] {
-	display: flex;
-	justify-content: center;
-	align-content: center;
+img[alt="welcome to my homepage"] {
+	display: block;
+	margin: 0 auto 2rem;
+	margin-top: 5em;
 
 }
 
@@ -207,6 +207,10 @@ th, td {
 	height: 3rem;
 }
 
+th {
+	text-align: left;
+}
+
 
 /**
 contact-me
@@ -234,8 +238,10 @@ contact-me
 button {
 	background-color: lime;
 	border: lime;
-	padding-right: 1em;
-	padding-left: 1em;
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+	padding-top: .5em;
+	padding-bottom: .5em;
 }
 
 /**
