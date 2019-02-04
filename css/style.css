@@ -67,10 +67,11 @@ body { width: 100%;
 /**
 header h1 text and color
  */
-/*h1 {
+h1 {
 	font-family: monospace;
 	color: lime;
-}*/
+
+}
 
 
 /**
@@ -120,6 +121,13 @@ header flex box
 	min-width: 17rem;
 	word-wrap: break-word;
 	border: 1px solid #363636;
+}
+
+.container > .instructions-wrapper {
+	display: flex;
+	align-content: space-between;
+	border: thick solid black;
+	padding: 2rem;
 }
 
 /**
