@@ -79,24 +79,25 @@ header
 .dMcDHeader {
 	display: flex;
 	flex-flow: wrap;
-	align-items: center;
+	align-items: baseline;
 	justify-content: center;
 	background-color: #333333;
 	font-family: monospace;
 	color: lime;
-	padding-right: 17em;
+	padding-right: 40em;
 }
 
 h1 {
 	padding-right: 1em;
 	padding-left: 1em;
+	font-size: 40px;
 }
 
-img [alt="welcome to my homepage"] {
+img [alt*="welcome to my homepage"] {
 	display: flex;
 	justify-content: center;
 	align-content: center;
-	margin-left: 17em;
+
 }
 
 
@@ -127,6 +128,7 @@ img [alt="welcome to my homepage"] {
 	align-content: space-between;
 	border: thick solid black;
 	padding: 1rem;
+	margin-bottom: 4em;
 }
 
 .instructions-wrapper img {
@@ -143,17 +145,18 @@ about me
 
 .about-me {
 	width: 100%;
-	background-color: blue;
+	background-color: #0607f5;
 	display: flex;
 	flex-flow: wrap;
 	align-items: flex-start;
 	justify-content: space-around;
 	color: white;
-	padding: 1em 2em 1em;
+	padding: 3em 2em 3em;
 }
 
 span {
 	color: #fff702;
+
 
 }
 /**
@@ -164,7 +167,8 @@ img[alt*="captain picard"] {
 	width: 22em;
 	height: auto;
 	border: 2px solid #ffedff;
-	margin: 2rem auto;
+	margin: 0;
+	margin-right: 2em;
 	float: left;
 }
 
