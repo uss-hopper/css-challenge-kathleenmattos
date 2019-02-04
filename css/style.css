@@ -64,15 +64,6 @@ body { width: 100%;
 * * Attribute Selectors
 ******************************************************/
 
-/**
-header h1 text and color
- */
-h1 {
-	font-family: monospace;
-	color: lime;
-
-}
-
 
 /**
 header flex box
@@ -83,15 +74,21 @@ header flex box
 	font-family: monospace;
 	color: lime;
 
-
 }
 
 .dMcDHeader {
 	display: flex;
 	flex-flow: wrap;
 	align-items: center;
-	justify-content: flex-start;
+	justify-content: center;
 	background-color: #333333;
+	font-family: monospace;
+	color: lime;
+}
+
+img [alt*="welcome to my homepage"] {
+	display: flex;
+	justify-content: center;
 }
 
 
