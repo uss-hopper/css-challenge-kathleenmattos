@@ -62,24 +62,24 @@ body { width: 100%;}
 * * Attribute Selectors
 ******************************************************/
 
-
-.header-container-wrapper{
-	background-color: darkslategray;
-}
-
-.form-wrapper {
-	background-color: darkslategray;
-}
-
-h1.container.sfooter-content{
+/**
+header h1 text and color
+ */
+h1 {
 	font-family: monospace;
+	color: lime;
 }
 
-[class="container"]{
-	font-family: monospace;
-}
 
-.sfooter-content.container {
-	font-family: monospace;
+/**
+header flex box
+ */
+.header {
+	display: flex;
+	justify-content: flex-start;
 }
+/**
+add flexbox for instructions
+ */
+
 
