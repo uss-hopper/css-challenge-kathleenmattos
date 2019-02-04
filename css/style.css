@@ -39,7 +39,9 @@ html, body {
 
 /*corrects IE min-height bug*/
 html { display: flex;}
-body { width: 100%;}
+body { width: 100%;
+	font-family: monospace}
+
 
 .sfooter {
 	display: flex;
@@ -65,11 +67,10 @@ body { width: 100%;}
 /**
 header h1 text and color
  */
-h1 {
+/*h1 {
 	font-family: monospace;
 	color: lime;
-
-}
+}*/
 
 
 /**
@@ -78,6 +79,9 @@ header flex box
 .header {
 	display: flex;
 	justify-content: flex-start;
+	font-family: monospace;
+	color: lime;
+
 
 }
 
@@ -86,7 +90,7 @@ header flex box
 	flex-flow: wrap;
 	align-items: center;
 	justify-content: flex-start;
-	background-color: darkslategray;
+	background-color: #333333;
 }
 
 
