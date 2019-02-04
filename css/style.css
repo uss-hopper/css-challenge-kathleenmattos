@@ -1,6 +1,6 @@
 /*****************************************************
 * CSS Mockup Activity - Custom CSS Stylesheet
-* @author rlewis37
+* @author kmattos1
 *
 * Some rules have been included here to give you a head start.
 * Create your own custom CSS rules below. Have fun!
@@ -77,9 +77,14 @@ header flex box
 .header {
 	display: flex;
 	justify-content: flex-start;
+
 }
 /**
 add flexbox for instructions
  */
-
+.instructions {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
 
