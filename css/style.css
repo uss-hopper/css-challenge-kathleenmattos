@@ -142,26 +142,13 @@ about me
 }
 
 /**
-image wrapper for Captain Picard:
+image wrapper for Captain Picard
  **/
-.about-me-image-flex-item {
-	width: 20rem;
+img[alt*="captain picard"] {
+	width: 22em;
+	height: auto;
 	border: 2px solid #ffedff;
 	margin: 2rem auto;
-	flex-shrink: 0;
-}
-
-.about-me-content-flex-item {
-	width: 50%;
-	color: white;
-	margin-right: auto;
-	min-width: 30rem;
-}
-
-.about-me-content span {
-	color: #fff0f4;
-	font-style: italic;
-	font-weight: bold;
 }
 
 /**
@@ -192,6 +179,24 @@ table, td, th {
 
 th, td {
 	height: 3rem;
+}
+
+/**
+contact-me
+ */
+
+
+
+/**
+footer
+ */
+
+footer {
+	background: black;
+	color: white;
+	font-size: 12px;
+	text-align: center;
+	padding: 1em;
 }
 
 
