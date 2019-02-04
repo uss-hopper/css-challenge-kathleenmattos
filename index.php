@@ -14,7 +14,7 @@
 
 			<!-- HEADER -->
 			<header>
-				<div class="container">
+				<div class="dMcDHeader">
 					<h1>Dylan McDonald:~$</h1>
 					<em>Computer Scientist. Cat Lover. Picard Fan.</em>
 				</div>
@@ -55,7 +55,7 @@
 			</section>
 
 			<!-- PROFESSIONAL SKILLZ -->
-			<section>
+			<section class="skillList">
 				<div class="container">
 					<h2>Summary of Profe$$ional Skillz</h2>
 					<table>

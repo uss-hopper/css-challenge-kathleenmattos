@@ -79,8 +79,16 @@ header flex box
 	display: flex;
 	justify-content: flex-start;
 	background-color: darkslategray;
-
 }
+
+.dMcDHeader {
+	display: flex;
+	flex-flow: wrap;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+
 /**
  instructions
  */
@@ -158,13 +166,13 @@ image wrapper for Captain Picard:
 /**
 professional skillz
  */
-/*PROFESSIONAL SKILLZ:*/
 .skillList {
 	width: 78%;
 	margin: 2rem auto;
+	font-family: monospace;
 }
 
-.skillList h3 {
+.skillList h2 {
 	float: right;
 }
 
@@ -176,9 +184,9 @@ table {
 
 table, td, th {
 	border-collapse: collapse;
-	background-color: #333333;
-	border: 2px solid white;
-	color: #00ff02;
+	background-color: darkslategray;
+	border: 3px solid white;
+	color: lime;
 }
 
 th, td {
