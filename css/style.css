@@ -68,6 +68,7 @@ header h1 text and color
 h1 {
 	font-family: monospace;
 	color: lime;
+
 }
 
 
@@ -77,6 +78,7 @@ header flex box
 .header {
 	display: flex;
 	justify-content: flex-start;
+	background-color: darkslategray;
 
 }
 /**
@@ -104,15 +106,83 @@ header flex box
 	margin: 2rem;
 	min-width: 17rem;
 	word-wrap: break-word;
-	border: 1px solid red;
+	border: 1px solid #363636;
 }
 
-/*image wrapper for Captain Janeway:*/
+/**
+image wrapper for Captain Janeway
+*/
 .instructions > .container > .image-wrapper {
 	width: 25%;
 	margin: 2rem;
 	min-width: 17rem;
-	border: 1px solid red;
+	border: 1px solid #363636;
+}
+
+/**
+about me
+ */
+
+.about-me {
+	width: 100%;
+	background-color: blue;
+	display: inline-flex;
+	flex-flow: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+
+/**
+image wrapper for Captain Picard:
+ **/
+.about-me-image-flex-item {
+	width: 20rem;
+	border: 2px solid #ffedff;
+	margin: 2rem auto;
+	flex-shrink: 0;
+}
+
+.about-me-content-flex-item {
+	width: 50%;
+	color: white;
+	margin-right: auto;
+	min-width: 30rem;
+}
+
+.about-me-content span {
+	color: #fff0f4;
+	font-style: italic;
+	font-weight: bold;
+}
+
+/**
+professional skillz
+ */
+/*PROFESSIONAL SKILLZ:*/
+.skillList {
+	width: 78%;
+	margin: 2rem auto;
+}
+
+.skillList h3 {
+	float: right;
+}
+
+table {
+	table-layout: fixed;
+	width: 100%;
+	margin-bottom: 3rem;
+}
+
+table, td, th {
+	border-collapse: collapse;
+	background-color: #333333;
+	border: 2px solid white;
+	color: #00ff02;
+}
+
+th, td {
+	height: 3rem;
 }
 
 
