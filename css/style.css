@@ -84,30 +84,25 @@ header
 	background-color: #333333;
 	font-family: monospace;
 	color: lime;
+	padding-right: 17em;
 }
 
 h1 {
-	padding: 4em;
+	padding-right: 1em;
+	padding-left: 1em;
 }
 
-img [alt*="welcome to my homepage"] {
+img [alt="welcome to my homepage"] {
 	display: flex;
 	justify-content: center;
 	align-content: center;
+	margin-left: 17em;
 }
 
 
 /**
  instructions
  */
-
-.instructions {
-	width: 100%;
-	margin: 2rem auto;
-	display: flex;
-	flex-direction: row;
-	align-items: center;
-}
 
 .instructions > .container {
 	border: 2px black;
@@ -180,8 +175,11 @@ professional skillz
 
 .skillList {
 	width: 78%;
-	margin: 2rem auto;
+	margin: 2em auto;
 	font-family: monospace;
+	display: flex;
+	justify-content: center;
+	align-content: center;
 }
 
 .skillList h2 {
@@ -224,7 +222,17 @@ contact-me
 	 display: grid;
  }
 
-
+ .contactForm {
+	 background-color: #363636;
+	 padding-top: 5em;
+	 padding-bottom: 5em;
+ }
+button {
+	background-color: lime;
+	border: lime;
+	padding-right: 1em;
+	padding-left: 1em;
+}
 
 /**
 footer
@@ -235,7 +243,6 @@ footer {
 	color: white;
 	font-size: 12px;
 	text-align: center;
-	padding: 1em;
 }
 
 
